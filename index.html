@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile Finder</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 min-h-screen text-white">
+
+  <!-- Main Container -->
+  <div class="min-h-screen flex flex-col items-center px-4 py-10">
+
+    <!-- Heading -->
+    <h1 class="text-4xl md:text-5xl font-bold mb-2 text-center">
+      GitHub Profile Finder
+    </h1>
+    <p class="text-gray-400 mb-8 text-center">
+      Search and explore GitHub developer profiles
+    </p>
+
+    <!-- Search Box -->
+    <div class="w-full max-w-xl mb-10">
+      <div
+        class="flex items-center bg-gray-800 rounded-xl shadow-lg border border-gray-700 focus-within:border-blue-500 transition">
+
+        <!-- Search Icon -->
+        <div class="px-4 text-gray-400">
+          🔍
+        </div>
+
+        <!-- Input -->
+        <input type="text" placeholder="Search GitHub username..."
+          class="usernameInput w-full bg-transparent py-3 pr-4 outline-none text-white placeholder-gray-500">
+
+        <!-- Button -->
+        <button class="search bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-r-xl font-semibold transition">
+          Search
+        </button>
+
+      </div>
+    </div>
+
+
+    <!-- Profile Card -->
+    <div
+      class="w-full max-w-xl bg-gray-800 border border-gray-700 rounded-2xl shadow-xl p-6 hover:shadow-2xl transition">
+
+      <!-- Top Section -->
+      <div class="profileCard">
+
+
+
+      </div>
+
+
+      <!-- Action Button -->
+      <div class="mt-6">
+        <button
+          class="githubProfile w-full bg-gray-900 hover:bg-gray-700 border border-gray-700 py-3 rounded-xl font-semibold transition">
+          View GitHub Profile
+        </button>
+      </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <p class="text-gray-500 text-sm mt-8">
+      Built with Tailwind CSS • Modern UI
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
